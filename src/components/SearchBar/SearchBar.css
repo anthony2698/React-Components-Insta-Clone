@@ -16,6 +16,8 @@
 }
 .image-wrapper {
   height: 50px;
+  padding-top: 35px;
+  width: 100px;
 }
 
 .logo-image {
