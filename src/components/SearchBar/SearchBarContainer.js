@@ -14,7 +14,6 @@ const handleChange = (event) => {
 
 const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(input);
     props.filterData(input.input);
 }
     return (

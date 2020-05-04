@@ -12,7 +12,6 @@ const filterData = (input) => {
     const newData = data.filter(el => {
         return el.username === input;
     });
-    console.log("NewData", newData, input);
     setData(newData);
 }
     return (
